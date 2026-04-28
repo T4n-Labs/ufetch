@@ -1,2 +1,5 @@
 # ufetch
-ufetch Project Create jsch (Gitlab)
+
+Tiny system info for Unix-like operating systems.
+
+![ufetch](https://jschx.gitlab.io/images/ufetch.png)
