@@ -1,0 +1,16 @@
+# Template file for 'ufetch'
+pkgname=ufetch
+version=1.0.0
+revision=1
+depends="xbps coreutils ncurses"
+short_desc="Tiny system info for T4n OS"
+maintainer="Gh0sT4n <darskevoid@gmail.com>"
+license="MIT"
+homepage="https://github.com/T4n-Labs/ufetch"
+distfiles="https://github.com/T4n-Labs/ufetch/archive/refs/tags/v${version}.tar.gz"
+checksum=85ef28f537968fa79ab463fbe3a4a83afc0b41a7198b181b79b93098d71fbfe7
+
+do_install() {
+	vbin ufetch-t4n ufetch
+	vlicense LICENSE
+}
